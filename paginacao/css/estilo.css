@@ -1,0 +1,29 @@
+.paging-nav {
+	text-align: right;
+	padding-top: 2px;
+	background-color: #0077C8;
+}
+.paging-nav a{
+	color: #0077C8;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+	border: 1px solid #ddd;
+	font-weight: bold;
+}
+.paging-nav .selected-page{
+	background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+.paging-nav a:hover:not(.active) {background-color: #ddd;}
+
+.paging-nav a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.paging-nav a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
